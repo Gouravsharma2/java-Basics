@@ -1,22 +1,27 @@
 import java.util.*;
-public class javabasics {
-
-  public static void main(String args[]) {
-    Scanner SC = new Scanner (System.in);
-    System.out.print("cost of pouch =  ");
-    int a = SC.nextInt();
-    System.out.print("cost of pen =  ");
-    int b = SC.nextInt();
-     System.out.print("cost of pencil =  ");
-     int c = SC.nextInt();
-     System.out.print("cost of eraser =  ");
-    int d = SC.nextInt();
-    System.out.print("GST = ");
-    int TOTAL = (a+b+c+d );
-    System.out.println(TOTAL*0.18f);
-   
-    System.out.print("total cost including GST = ");
-     System.out.print(TOTAL*0.18f + TOTAL);
-
+public class javabasics{
+  public static void hellobhai(){
+    System.out.println("heelo aman");
+    System.out.println("heelo chaman");
+    System.out.println("heelo raman");
+    System.out.println("heelo naman");
+    System.out.println("heelo vidhi");
+    System.out.println("heelo ridhi");
+    System.out.println("heelo sidhi");
+    System.out.println("heelo pidi");
+    System.out.println("heelo jidi");
+    System.out.println("heelo budhi");
+    System.out.println("heelo aman love vidhi");
+  }
+  public static void sumc() {
+    Scanner Sc =new Scanner(System.in);
+    int a = Sc.nextInt();
+    int b = Sc.nextInt();
+    int sum = (a + b);
+    System.out.println(sum);
+  }
+  public static void main (String args[]) {
+    sumc();
+    
   }
 }
